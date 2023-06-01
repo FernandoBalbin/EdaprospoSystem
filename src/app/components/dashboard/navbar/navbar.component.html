@@ -1,0 +1,10 @@
+<mat-toolbar class="cuerpo">
+    <span>EDAPROSPO</span>
+    <span class="example-spacer"></span>
+    <button mat-button *ngFor="let item of menu" [routerLink]="item.redirect" >{{item.nombre}}</button>
+    <span class="example-spacer"></span>
+    <button routerLink="/logout" mat-button class="exaMple-icon favorite-icon" aria-label="Example icon-button with icon">
+        <mat-icon >logout</mat-icon>
+    </button>
+
+</mat-toolbar>

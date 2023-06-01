@@ -1,0 +1,56 @@
+<div class="contenedor">
+    <button class="btn">Agregar</button>
+  <span class="cliente">LISTAR CLIENTES</span>
+  <table class="content-table">
+    <thead>
+      <tr>
+        <th>GRUPO</th>
+        <th>NOMBRE Y APELLIDOS</th>
+        <th>DNI</th>
+        <th>TELEFONO</th>
+        <th>ESTADO</th>
+        <th>EDAD</th>
+        <th>DIRECCION</th>
+        <th>ACCIONES</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr *ngFor="let cliente of clientes">
+        <td>{{ cliente.nombre_grupo }}</td>
+        <td>{{ cliente.nombre_apellidos }}</td>
+        <td>{{ cliente.dni_cliente }}</td>
+        <td>{{ cliente.telefono_cliente }}</td>
+        <td>{{ cliente.estado }}</td>
+        <td>{{ cliente.edad_cliente }}</td>
+        <td>{{ cliente.direccion_cliente }}</td>
+        <td>
+          <a class="pointer" matTooltip="Ver Usuario">
+            <mat-icon >search</mat-icon>
+          </a>
+          <a class="pointer" style="color: #1f516f" matTooltip="Editar Usuario" >
+            <mat-icon>edit</mat-icon>
+          </a>
+          <a class="pointer" style="color: #e15639" matTooltip="Eliminar Usuario">
+            <mat-icon>delete</mat-icon>
+          </a>
+        </td>
+      </tr>
+    </tbody>
+  </table>
+  <!-- <table>
+        <thead>
+          <tr>
+            <th>ID</th>
+            <th>Nombre</th>
+            <th>Email</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr *ngFor="let cliente of clientes">
+            <td>{{ cliente.id }}</td>
+            <td>{{ cliente.nombre }}</td>
+            <td>{{ cliente.email }}</td>
+          </tr>
+        </tbody>
+      </table> -->
+</div>

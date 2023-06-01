@@ -1,0 +1,63 @@
+.mat-elevation-z8{
+    margin-top: 50px;
+}
+.contenedor{
+    margin-left: 100px;
+    margin-right: 100px;
+    margin-top: 50px;
+    border-radius: 10px;
+    background-color: #FFFFFF;
+}
+.btn{
+    padding: 10px 50px;
+    font-weight: bold;
+    text-align: start;
+    background: linear-gradient(90deg, #94C3E0 0%, #F8B796 89.58%);
+    border-radius: 5px;
+    color: rgb(0, 0, 0);
+    cursor: pointer;
+    border: none;
+}
+.cliente{
+    font-weight: bolder;
+    flex-direction: row;
+    justify-content: center;
+    font-size: 25px;
+    display: flex;
+}
+.content-table{
+    margin-right: 100px;
+    text-align: center;
+    margin-top: 20px;
+}
+table{
+    background-color: white;
+    text-align: left;
+    border-collapse: collapse;
+    width: 100%;
+}
+th{
+    border: 1px solid #ddd;
+}
+th,td{
+    padding: 20px;  
+    border-bottom: solid 2px #94C3E0;
+}
+thead{
+    background: linear-gradient(90deg, #94C3E0 0%, #F8B796 89.58%);
+    border-bottom: solid 5px #94C3E0;
+}
+tbody tr{
+    background-color: #000000;
+    color: white;
+}
+tr:hover td{
+    background-color: #94C3E0;
+    color: white;
+
+}
+.pointer{
+    cursor: pointer;
+}
+
+  

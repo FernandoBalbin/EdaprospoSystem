@@ -1,0 +1,74 @@
+.body{
+    display: flex;
+    justify-content: center;
+    height: 100%;
+    align-items: center;
+    background-color: #373352;
+}
+.img{
+    opacity: 0.6;
+    width: 100%;
+}
+.login{
+    width: 100%;
+    max-width: 100%;
+    text-align: center;
+}
+.contenedor{
+    width: 100%;
+    max-width: 330px;
+    text-align: center;
+    border-radius: 10px;
+    background-color: #FFFFFF;
+}
+
+.entrada {
+    margin-top: 10px;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    font-weight: bold;
+    gap: 10px;
+}
+.entrada-ingresar{
+    display: flex;
+    width: 100%;
+    height: auto;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+.inputs {
+    font-size: 14px;
+    width: 70%;
+    font-family: Arial, sans-serif;
+    color: #333;
+    background-color: #fff;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    padding: 5px;
+  }
+.cuerpo-button {
+    margin-top: 20px;
+    text-align: center;
+    padding: 10px 50px;
+    color: white;
+   
+}
+.btn{
+    padding: 10px 50px;
+    font-weight: bold;
+    text-align: center;
+    background: linear-gradient(90deg, #94C3E0 0%, #F8B796 89.58%);
+    border-radius: 5px;
+    color: rgb(0, 0, 0);
+    cursor: pointer;
+    border: none;
+}
+.spiner{
+    margin: 0 auto;
+    text-align: center;
+    width:fit-content;
+    height: fit-content;
+}

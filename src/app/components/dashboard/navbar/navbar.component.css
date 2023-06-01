@@ -1,0 +1,9 @@
+.example-spacer {
+    flex: 1 1 auto;
+}
+
+.cuerpo {
+    background-color: #010101;
+    color: aliceblue;
+    opacity: 0.80;
+}

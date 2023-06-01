@@ -1,0 +1,19 @@
+[
+  {
+    "nombre": "Clientes",
+    "redirect": "/dashboard/clientes"
+  },
+  {
+    "nombre": "Grupos",
+    "redirect": "/dashboard/grupos"
+  },
+  {
+    "nombre": "Reportes",
+    "redirect": "/dashboard/reportes"
+  },
+  {
+    "nombre": "Empresa",
+    "redirect": "/dashboard/clientes"
+  }
+  
+]
