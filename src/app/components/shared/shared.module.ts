@@ -12,6 +12,7 @@ import {MatButtonModule} from '@angular/material/button';
 import {MatIconModule} from '@angular/material/icon';
 import { HttpClientModule } from '@angular/common/http';
 import {MatTooltipModule} from '@angular/material/tooltip';
+import {MatTableModule} from '@angular/material/table';
 
 @NgModule({
   declarations: [],
@@ -25,7 +26,8 @@ import {MatTooltipModule} from '@angular/material/tooltip';
     MatButtonModule,
     MatIconModule,
     HttpClientModule,
-    MatTooltipModule
+    MatTooltipModule,
+    MatTableModule
   ],
   exports:[
     ReactiveFormsModule,
@@ -36,7 +38,8 @@ import {MatTooltipModule} from '@angular/material/tooltip';
     MatButtonModule,
     MatIconModule,
     HttpClientModule,
-    MatTooltipModule
+    MatTooltipModule,
+    MatTableModule
   ]
 })
 export class SharedModule { }

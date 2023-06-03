@@ -5,6 +5,7 @@ import { InicioComponent } from './inicio/inicio.component';
 import { ClientesComponent } from './clientes/clientes.component';
 import { GruposComponent } from './grupos/grupos.component';
 import { ReportesComponent } from './reportes/reportes.component';
+import { CrearClientesComponent } from './clientes/crear-clientes/crear-clientes.component';
 
 const routes: Routes = [
   {path:'',component: DashboardComponent, children:[
@@ -12,6 +13,7 @@ const routes: Routes = [
     {path: 'clientes',component:ClientesComponent},
     {path: 'grupos',component:GruposComponent},
     {path: 'reportes',component:ReportesComponent},
+    {path: 'crear-cliente',component:CrearClientesComponent},
   ]}
 ];
 

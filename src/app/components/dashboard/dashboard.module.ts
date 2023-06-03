@@ -9,6 +9,7 @@ import { ClientesComponent } from './clientes/clientes.component';
 import { ReportesComponent } from './reportes/reportes.component';
 import { GruposComponent } from './grupos/grupos.component';
 import { SharedModule } from '../shared/shared.module';
+import { CrearClientesComponent } from './clientes/crear-clientes/crear-clientes.component';
 
 
 @NgModule({
@@ -18,7 +19,8 @@ import { SharedModule } from '../shared/shared.module';
     NavbarComponent,
     ClientesComponent,
     ReportesComponent,
-    GruposComponent
+    GruposComponent,
+    CrearClientesComponent
   ],
   imports: [
     CommonModule,

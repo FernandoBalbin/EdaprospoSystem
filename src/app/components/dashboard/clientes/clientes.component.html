@@ -1,5 +1,5 @@
 <div class="contenedor">
-    <button class="btn">Agregar</button>
+  <button class="btn" routerLink="/dashboard/crear-cliente">Agregar</button>
   <span class="cliente">LISTAR CLIENTES</span>
   <table class="content-table">
     <thead>
@@ -25,18 +25,23 @@
         <td>{{ cliente.direccion_cliente }}</td>
         <td>
           <a class="pointer" matTooltip="Ver Usuario">
-            <mat-icon >search</mat-icon>
+            <mat-icon>search</mat-icon>
           </a>
-          <a class="pointer" style="color: #1f516f" matTooltip="Editar Usuario" >
+          <a class="pointer" style="color: #1f516f" matTooltip="Editar Usuario">
             <mat-icon>edit</mat-icon>
           </a>
-          <a class="pointer" style="color: #e15639" matTooltip="Eliminar Usuario">
+          <a
+            class="pointer"
+            style="color: #e15639"
+            matTooltip="Eliminar Usuario"
+          >
             <mat-icon>delete</mat-icon>
           </a>
         </td>
       </tr>
     </tbody>
   </table>
+
   <!-- <table>
         <thead>
           <tr>
