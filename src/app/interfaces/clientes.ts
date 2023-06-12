@@ -7,3 +7,28 @@ export interface Clientes{
     edad_cliente: number,
     direccion_cliente: string
 }
+export interface NuevoCliente {
+    id_grupos: number,
+    id_negocio: number,
+    id_usuario:number,
+    nombrenegocio_cliente:string,
+    dni_cliente:number,
+    apellidos_cliente:string,
+    nombres_cliente:string,
+    estadocivil_cliente:1,
+    fechanacimiento_cliente:string,
+    sexo_cliente:string,
+    correo_cliente:string,
+    telefono_cliente:number,
+    estado_cliente:number,
+    direccion_cliente:string,
+    distrito_cliente:string,
+    dni_conyugue: number,
+    fechanacimiento_conyugue: string,
+    apellidos_conyugue:string,
+    nombres_conyugue:string,
+    correo_conyugue:string,
+    telefono_conyugue:number,
+    direccion_conyugue:string,
+    distrito_conyugue:string,
+  }
